@@ -1,0 +1,108 @@
+body{
+    background-color:#f2f2f2;
+}
+
+.wallofchina{
+    background-color: lightblue;
+    
+}
+.chichen{
+    background-color: lightgray;
+}
+.machu{
+    background-color: mediumseagreen;
+}
+.petra{
+    background-color: sandybrown;
+}
+.christ{
+    background-color: wheat;
+    
+}
+
+
+.colo{
+    background-color: lightsalmon;
+}
+
+.Taj{
+    background-color: snow;
+}
+
+/* .wonders{
+    display: flex;
+    gap: 20px; 
+
+} */
+
+.one{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.two{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.two > *{
+    border-radius: 5px;
+    flex-basis: 50px;
+    padding: 0;
+    margin: 0;
+    
+}
+.one > *{
+    border-radius: 5px;
+    flex-basis: 50px;
+}
+
+
+h1{
+    font-size: 5rem;
+    
+}
+
+h3{
+    text-transform:uppercase;
+    font-size: 2rem;
+    padding: 0;
+}
+
+h2{
+    color: orangered;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media(max-width:680px){
+    h2{
+        width: 100px;
+    }
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .one > * {
+       flex-direction: column;
+       flex: 1;
+    }
+    .two > * {
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+
+ 
